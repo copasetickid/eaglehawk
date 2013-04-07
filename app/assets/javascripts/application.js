@@ -16,7 +16,7 @@
 //= require lib/underscore
 //= require lib/backbone
 //= require jquery_ujs
-//= require lib/jquery-mobile-1.3.0
+//= require lib/jquery.mobile-1.3.0
 
 //= require_tree ./models
 //= require_tree ./views
