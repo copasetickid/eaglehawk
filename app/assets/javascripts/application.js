@@ -10,6 +10,15 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
+//= require handlebars.runtime
+//= require_tree ./templates
+//= require lib/jquery-1.9.1
+//= require lib/underscore
+//= require lib/backbone
 //= require jquery_ujs
-//= require_tree .
+//= require lib/jquery-mobile-1.3.0
+
+//= require_tree ./models
+//= require_tree ./views
+//= require_tree ./widgets
+//= require_tree ./routers

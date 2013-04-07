@@ -25,16 +25,22 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.10.1'
   gem 'factory_girl_rails', '~> 3.3.0'
   gem 'guard'
+  gem 'jshint_on_rails'
+  gem 'jasmine'
 end
 
 group :test do
   gem 'capybara', '1.1.2'
   gem 'guard-rspec'
   gem 'cucumber-rails', '~> 1.3.0', :require => false
+  gem "database_cleaner", "~> 0.7.2"
 end
 
 gem 'jquery-rails'
 gem 'devise', '2.1.0'
+gem 'rabl'
+gem 'handlebars_assets'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
